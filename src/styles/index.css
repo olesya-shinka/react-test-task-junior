@@ -84,13 +84,13 @@ body {
   width: 150px;
   height: 200px;
   border-radius: 10px;
-
 }
 
 .product-img {
   width: 60px;
   height: 80px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .product-img-selected {
@@ -99,6 +99,7 @@ body {
   border-radius: 10px;
   display: flex;
   gap: 20px;
+  cursor: pointer;
   border: 2px solid rgb(9, 190, 48);
 }
 
