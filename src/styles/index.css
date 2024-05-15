@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-box {
+  display: flex;
+  padding: 30px;
+}
+
+.products-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.products-title {
+  color: rgb(46, 48, 48);
+}
+
+.products-container {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.product-link {
+  text-decoration: none;
+  color: rgb(59, 57, 57);
+  display: flex;
+  align-items: center;
+}
+
+.product-link:hover {
+  text-decoration: underline;
+}
+
+.product-link:visited {
+  color: rgb(59, 57, 57);
+}
+
+.product-item {
+  background-color: rgb(237, 241, 241);
+  width: 280px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.product-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+
+}
+
+.product-img {
+  width: 60px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.product-img-selected {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  border: 2px solid rgb(9, 190, 48);
+}
+
+.product-prop {
+  background-color: transparent;
+  margin: 5px;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 10px;
+  border: 2px solid rgb(230, 231, 230);
+}
+
+.product-prop-selected {
+  cursor: pointer;
+  border: 2px solid rgb(9, 190, 48);
+  padding: 7px;
+  border-radius: 10px;
+  color: black;
+  background-color: transparent;
+}
+
+.product-content {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 40%;
+  margin: 40px;
+}
+
+.disabled-btn{
+  background-color: rgb(224, 218, 218);
+  margin: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  border: 2px solid rgb(230, 231, 230);
+}
